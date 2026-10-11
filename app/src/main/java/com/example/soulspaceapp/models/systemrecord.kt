@@ -14,5 +14,5 @@ data class systemrecord(
     val message: String = "",
     val rant: String = "",
 
-    //sample change in my model
+    //sample change in my model app
 )
