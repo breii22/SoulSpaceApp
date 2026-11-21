@@ -2,6 +2,7 @@
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
      alias(libs.plugins.ksp)
+     id("com.google.gms.google-services")
 }
 
 android {
@@ -50,6 +51,10 @@ dependencies {
     ksp("androidx.room:room-compiler:2.8.5")
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation("com.google.firebase:firebase-firestore:25.1.2")
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation("com.google.firebase:firebase-auth")
+    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)

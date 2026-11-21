@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "374614973083",
+    "project_id": "sample-composable-projec-de4af",
+    "storage_bucket": "sample-composable-projec-de4af.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374614973083:android:a5924494ab9e01c7d7843e",
+        "android_client_info": {
+          "package_name": "com.example.soulspaceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzCaUinyWrXUzhivYgbim6kxehNWq-OvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
